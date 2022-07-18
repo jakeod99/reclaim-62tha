@@ -1,3 +1,69 @@
-h1 {
-  color: red
+:root {
+  --dark: #18344E;
+  --light: #FAEDB3;
+  --medium: #73A5D3;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background-color: var(--medium);
+  border-color: var(--medium);
+}
+
+.btn {
+  color: var(--dark);
+}
+
+.btn-primary:hover {
+  color: var(--light);
+  filter: brightness(1.1);
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.header {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1pt solid var(--medium);
+}
+
+.header:hover {
+  background-color: var(--medium);
+}
+
+.header-link,
+.day-nav-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: var(--light);
+  padding: 1em;
+}
+
+.header-link:hover,
+.day-nav-link:hover {
+  text-decoration: none;
+  color: var(--light);
+}
+
+.header-link:active,
+.day-nav-link:active {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.day-nav-link-container {
+  text-align: center;
+}
+
+.day-nav-link-container:hover {
+  background-color: var(--medium);
+}
+
+#day-nav-anchor {
+  border-bottom: 1pt solid var(--medium);
 }
