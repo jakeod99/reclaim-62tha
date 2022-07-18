@@ -9,7 +9,7 @@ const dayNavBuilder = (days, backToRoot = "") => {
     dayLinkContainer.setAttribute('class', 'day-nav-link-container');
     const dayLink = document.createElement('a');
     dayLink.setAttribute('class', 'day-nav-link')
-    dayLink.href = `${backToRoot}days/${day.day}/index.html`;
+    dayLink.href = `${backToRoot}days/${day.day}.html`;
     dayLink.textContent = day.display;
     dayLinkContainer.appendChild(dayLink);
     col.appendChild(dayLinkContainer);
@@ -18,4 +18,4 @@ const dayNavBuilder = (days, backToRoot = "") => {
   anchor.appendChild(row)
 }
 
-dayNavBuilder(days, backToRoot);
+dayNavBuilder(data.days, backToRoot);

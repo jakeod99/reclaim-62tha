@@ -42,6 +42,7 @@ body {
   text-decoration: none;
   color: var(--light);
   padding: 1em;
+  font-weight: bold;
 }
 
 .header-link:hover,

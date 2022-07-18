@@ -1,11 +1,11 @@
 // // Some initial thoughts
-// const overallProgressBuilder = (data) => {
-//   const anchor = document.getElementById('overall-progress-anchor');
-//   overallProgress.forEach(sectionProgress => {
+// const dayProgressBuilder = (day) => {
+//   const anchor = document.getElementById('day-progress-anchor');
+//   day.forEach(sectionProgress => {
 //     const section = document.createElement('div');
 //     section.textContent = sectionProgress.section + " " + sectionProgress.currentProgress
 //     anchor.appendChild(section);
 //   });
 // }
 
-// overallProgressBuilder(data);
+// dayProgressBuilder(data.days[day]);
