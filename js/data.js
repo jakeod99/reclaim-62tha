@@ -5,65 +5,96 @@ const data = {
       "display": "7/16/22",
       "progress": [
         {
-          "section": "", // FILL
-          "from": 0.0, // FILL
-          "to": 0.0 // FILL
-        },
-        {
-          "section": "", // FILL
-          "from": 0.0, // FILL
-          "to": 0.0 // FILL
+          "section": "Office",
+          "from": 0,
+          "to": 33
         }
       ],
       "commonStats": {
-        "hours": 0, //FILL
-        "trashBags": 0, //FILL
-        "recyclingBins": 0, //FILL
-        "boxesSorted": 0, //FILL
-        "ggAuctionItems": 0 //FILL
+        "Hours": 6,
+        "Bags of Trash": 6,
+        "Recycling Bins Filled": 1,
+        "Boxes Sorted": 15,
+        "Bags Donated": 3,
+        "GG Auction Items Found": 2
       },
-      "uniqueStats": [
+      "uniqueStats": { // FILL or LEAVE EMPTY
+        "blah": 0
+      },
+      "comments": [ // FILL or LEAVE EMPTY
         {
-          "blah": "blah" //FILL
+          "title": "blah", // FILL
+          "text": [ // FILL or LEAVE EMPTY
+            "blah",
+            "blah"
+          ],
+          "comments": [ // FILL or LEAVE EMPTY
+            {
+              "title": "blah", // FILL
+              "text": [ // FILL or LEAVE EMPTY
+                "blah",
+                "blah"
+              ],
+              "comments": [] // FILL or LEAVE EMPTY
+            }
+          ]
+        },
+        {
+          "title": "blah", // FILL
+          "text": [], // FILL or LEAVE EMPTY
+          "comments": [] // FILL or LEAVE EMPTY
         }
-      ],
-      "comments": [
-        "lorem ipsum",
-        "lorem ipsum again"
       ]
     // }, // FOR NEXT DAY, UNCOMMENT AND FILL OUT BELOW
     // {
-    //   "day": "00000000", // FILL
-    //   "display": "00/00/00", // FILL
-    //   "progress": [
+    //   "day": "00000000",
+    //   "display": "00/00/00",
+    //   "progress": [ // FILL or LEAVE EMPTY
     //     {
     //       "section": "", // FILL
-    //       "from": 0.0, // FILL
-    //       "to": 0.0 // FILL
+    //       "from": 0, // FILL
+    //       "to": 0 // FILL
     //     },
     //     {
     //       "section": "", // FILL
-    //       "from": 0.0, // FILL
-    //       "to": 0.0 // FILL
+    //       "from": 0, // FILL
+    //       "to": 0 // FILL
     //     }
     //   ],
     //   "commonStats": {
-    //     "hours": 0, //FILL
-    //     "trashBags": 0, //FILL
-    //     "recyclingBins": 0, //FILL
-    //     "boxesSorted": 0, //FILL
-    //     "ggAuctionItems": 0 //FILL
+    //     "hours": 0, // FILL
+    //     "trashBags": 0, // FILL
+    //     "recyclingBins": 0, // FILL
+    //     "boxesSorted": 0, // FILL
+    //     "ggAuctionItems": 0 // FILL
     //   },
-    //   "uniqueStats": [
+    //   "uniqueStats": { // FILL or LEAVE EMPTY
+    //     "blah": 0
+    //   },
+    //   "comments": [ // FILL or LEAVE EMPTY
     //     {
-    //       "FILL": "FILL" // FILL or DELETE ...
+    //       "title": "blah", // FILL
+    //       "text": [ // FILL or LEAVE EMPTY
+    //         "blah",
+    //         "blah"
+    //       ],
+    //       "comments": [ // FILL or LEAVE EMPTY
+    //         {
+    //           "title": "blah", // FILL
+    //           "text": [ // FILL or LEAVE EMPTY
+    //             "blah",
+    //             "blah"
+    //           ],
+    //           "comments": [] // FILL or LEAVE EMPTY
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "title": "blah", // FILL
+    //       "text": [], // FILL or LEAVE EMPTY
+    //       "comments": [] // FILL or LEAVE EMPTY
     //     }
-    //   ],
-    //   "comments": [
-    //     "lorem ipsum", // FILL or DELETE
-    //     "lorem ipsum again" // FILL or DELETE ...
     //   ]
-    // }
     }
   ],
   "sections": [
